@@ -45,6 +45,7 @@ export default function ImgGen() {
             })
             .catch(error => {
                 console.error("Error:", error);
+                alert("Error: " + error.response.data.error);
             })
             .finally(() => {
                 setIsWaiting(false);
