@@ -28,10 +28,10 @@ export async function POST(req) {
     // 文件連結: https://platform.openai.com/docs/guides/images/usage
 
     const response = await openai.images.generate({
-        model: "dall-e-3",
+        model: "dall-e-2",
         prompt: userInput,
         n: 1,
-        size: "1024x1024",
+        size: "256x256",
     });
       
     const openAIImageURL = response.data[0].url;
