@@ -55,3 +55,23 @@ git branch -M main
 git remote add origin https://github.com/e11110/ntu-ai-web-vocab.git
 git push -u origin main
 ```
+
+# git commands
+
+## see current branch
+git status
+
+## change branch
+
+git checkout branch
+
+## add new branch
+git checkout -b new_branch
+
+## list all branches
+
+git branch -a
+
+## send branch to github
+
+git push origin HEAD
