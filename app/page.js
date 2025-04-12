@@ -116,6 +116,7 @@ export default function Home() {
                 <VocabGenResultCard
                   key={result.createdAt + index}
                   result={result}
+                  onCopy={setUserInput}
                 />
               ))}
             </>
