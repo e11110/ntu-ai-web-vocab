@@ -13,9 +13,18 @@ export default function Navbar() {
                 <Link href="/image-generator" className="mr-3 text-slate-900 hover:text-pink-500 font-semibold">
                     AI ImgGen
                 </Link>
-                <Link href="/vision" className="text-slate-900 hover:text-pink-500 font-semibold">
+                <Link href="/vision" className="mr-3 text-slate-900 hover:text-pink-500 font-semibold">
                     AI Vision
                 </Link>
+                <Link href="/sign-up" className="mr-3 text-slate-900 hover:text-pink-500 font-semibold">
+                    Sign up
+                </Link>
+                <Link href="/log-in" className="mr-3 text-slate-900 hover:text-pink-500 font-semibold">
+                    Log in
+                </Link>
+                <button className="px-3 py-1 text-slate-900 hover:text-white hover:bg-pink-500 font-semibold rounded-md transition-colors">
+                    Log out
+                </button>
             </div>
         </nav>
     )
